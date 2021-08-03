@@ -1,0 +1,1442 @@
+@charset "utf-8";
+
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 1440px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: white;
+  position:fixed;
+  z-index: 1;
+}
+
+/* #titleはheader上部の空白消し*/
+#title {  
+  margin-top: 0; 
+}
+
+.logo {
+  float: left;
+}
+
+.isaralogo {
+  margin-left: 140px;
+  padding-top: 15px;
+}
+
+.nav1 li {
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+button.button1 {
+  width: 310px;
+  height:44px;
+  border:1px solid #d86c67;
+  background-color: #d86c67;
+  border-radius: 25px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  font-size:20px;
+  padding-top:10px;
+  font-weight:400;
+}
+
+.main {
+  width: 1440px;
+  height: 500px;
+  background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/main.jpg");
+  background-size: cover;
+  /* main全体を中央に指定↓ */
+  text-align: center;
+  margin-top: -22px;
+}
+
+.main h1 {
+  padding-top: 100px;
+}
+
+/* line-heightは行間調節 */
+.main p {
+  font-size: 20px;
+  line-height: 0.3em;
+}
+
+.main2 {
+  width: 1440px;
+  height: 600px;
+  background-color: #f7c23c;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.main2 h1 {
+  font-size: 23px;
+  color: white;
+}
+
+.main2 h2 {
+  color: white;
+  line-height: 45px;
+}
+
+.main2 p {
+  width: 466px;
+  height: 26px;
+  font-size: 18px;
+  color: firebrick;
+  background-color: white;
+}
+
+button.button2 {
+  width: 1030px;
+  height: 105px;
+  border:1px solid #d86c67;
+  background-color: #d86c67;
+  border-radius: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-bottom: 70px;
+}
+
+.main3 {
+  width: 1440px;
+  height: 590px;
+  background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/main3.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* 黄色い「」の指定↓ */
+.mainsmall::before,.mainsmall::after {
+  content:'';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.mainsmall::before{
+  border-top:4px solid #f7c23c ;
+  border-left:4px solid #f7c23c ;
+  top:0;
+  left:0;
+}
+.mainsmall::after{
+  border-bottom:4px solid #f7c23c ;
+  border-right:4px solid #f7c23c ;
+  bottom:0;
+  right:0;
+}
+.mainsmall{
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* 黄色い「」の指定ここまで */
+
+.mainsmall h2{
+font-size: 27px;
+font-weight: 600;
+  text-align:center;
+}
+
+.main3 p {
+font-size: 21px;
+line-height: 0.6em;
+}
+
+#nav2 {
+  font-size: 22px;
+  padding-top: 48px;
+  text-align: center;
+  /* display: block;で横並び→縦に指定 */
+  display: block;
+  list-style: none;
+}
+
+#nav2 span {
+  font-weight: 900;
+  /* linear-gradientが線形グラデーション、背景色であるrabaに#ebb94dを太さ70％で指定した */
+  background: linear-gradient(rgba(255,255,255,0) 70%, #f7c23c 70%);
+}
+
+.main4 {
+  width: 1440px;
+  height: 646px;
+  background-color: lightyellow;
+  background-size: cover;
+  text-align: center;
+}
+
+.about p {
+  color:white;
+  background-color: #f7c23c;
+  font-size:15px;
+  display: inline-block;
+  border-radius: 50px;
+  /*Aboutを丸の中心に配置*/
+  height:80px;
+  width:80px;
+  line-height: 80px;
+  /*前のセクションに円を半分重ねる*/
+  position: relative;
+  margin-top: -55px;
+}
+
+.main4small::before,.main4small::after {
+  content:'';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main4small::before{
+  border-top:4px solid #f7c23c ;
+  border-left:4px solid #f7c23c ;
+  top:0;
+  left:0;
+}
+.main4small::after{
+  border-bottom:4px solid #f7c23c ;
+  border-right:4px solid #f7c23c ;
+  bottom:0;
+  right:0;
+}
+.main4small{
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main4small h2{
+  font-size: 27px;
+  font-weight: 600;
+  text-align:center;
+  line-height: 0.5em;
+  }
+
+  .main4 h3 {
+    padding-top: 40px;
+    font-size: 23px;
+    color: black;
+  }
+/* 黄色い箱型の指定 */
+  .box1 {
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #f7c23c;
+    border-radius: 5px;
+  }
+
+  .contents {
+    /* display: flex;で画像を横並びに指定 */
+    display: flex;
+    padding: 0 200px;
+  }
+
+  .contents-item {
+    padding: 0 20px;
+  }
+
+  .contents-item p {
+    font-size: 12px;
+  }
+
+  .main5 {
+    width: 1440px;
+    height: 440px;
+    background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/aboutsecondbg.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .main5 h1 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .main5 h3 {
+    color: white;
+    font-size: 20px;
+    line-height: 0.3em;
+    padding-bottom: 30px;
+  }
+
+  .main5 span {
+    color: #f7c23c;
+  }
+
+  .box2 {
+    width: 375px;
+    height: 180px;
+    background-color: white;
+    margin-left: 135px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .smallbox1 {
+    width: 315px;
+    height: 25px;
+    margin-left: 30px;
+    background-color: #f7c23c;
+    border-radius: 5px;
+  }
+
+  .smallbox1 h3 {
+    padding-top: 10px;
+  }
+
+  .box3 {
+    width: 375px;
+    height: 180px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .smallbox2 {
+    width: 315px;
+    height: 25px;
+    margin-left: 30px;
+    background-color: #f7c23c;
+    border-radius: 5px;
+  }
+
+  .smallbox2 h3 {
+    padding-top: 10px;
+  }
+
+  .box4 {
+    width: 375px;
+    height: 180px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .smallbox3 {
+    width: 315px;
+    height: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #f7c23c;
+  }
+
+  .smallbox3 h3 {
+    padding-top: 10px;
+  }
+
+  .boxteam {
+    display: flex;
+  }
+
+  .main6 {
+    width: 1440px;
+    height: 140px;
+    background-color: steelblue;
+    padding-top: 45px;
+    text-align: center;
+  }
+
+  .main6 h3 {
+    color: white;
+    font-size: 23px;
+    line-height: 0.2em;
+  }
+
+  .main6 span {
+    color: #f7c23c;
+  }
+
+  .main7 {
+    width: 1440px;
+    height: 510px;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .main7 p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .contents2 {
+    display: flex;
+    padding: 0 200px;
+  }
+
+  .contents-item2 {
+    padding: 0 45px;
+  }
+
+  .main8 {
+    width: 1440px;
+    height: 1020px;
+    background-color: lightyellow;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .main8small::before,.main8small::after {
+    content:'';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .main8small::before{
+    border-top:4px solid #f7c23c ;
+    border-left:4px solid #f7c23c ;
+    top:0;
+    left:0;
+  }
+  .main8small::after{
+    border-bottom:4px solid #f7c23c ;
+    border-right:4px solid #f7c23c ;
+    bottom:0;
+    right:0;
+  }
+  .main8small{
+      margin: 0 auto;
+      position: relative;
+      width: 700px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .main8small h2 {
+    font-size: 22px;
+    line-height: 0.3em;
+  }
+
+  .main8small p {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 0.3em;
+  }
+
+  .contents3 {
+    margin-top: 40px;
+    padding: 0 100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .contents3 h3 {
+    color: #f7c23c;
+  }
+
+  .contents3-item {
+    padding: 0 30px;
+  }
+
+  .box5 {
+    width: 1170px;
+    height: 255px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #f7c23c;
+    border-radius: 5px;
+  }
+
+  .box5 h2 {
+    color: #f7c23c;
+    font-size: 30px;
+  }
+
+  .box5 p {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  .main9 {
+    width: 1440px;
+    height: 1380px;
+    padding-top: 90px;
+    background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/teacherbg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+
+  .contents4-item1 img {
+    position: relative;
+    margin-top: -170px;
+    /* border-radius: 50%;をimg(画像)に指定することで四角い画像を丸くできる */
+    border-radius: 50%;
+  }
+
+  .box6 {
+    width: 365px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid white;
+    float: left;
+    margin-left: 330px;
+    margin-right: 15px;
+    margin-top: 210px;
+  }
+
+  .contents4-item2 img {
+    position: relative;
+    margin-top: -170px;
+    border-radius: 50%;
+  }
+
+  .box7 {
+    width: 365px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid white;
+    float: left;
+    margin-right: 330px;
+    margin-left: 15px;
+    margin-top: 210px;
+  }
+
+  .contents4-item3 img {
+    position: relative;
+    margin-top: -170px;
+  }
+
+  .box8 {
+    width: 365px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid white;
+    float: left;
+    margin-left: 330px;
+    margin-right: 15px;
+    margin-top: 210px;
+  }
+
+  .contents4-item4 img {
+    position: relative;
+    margin-top: -170px;
+  }
+
+  .box9 {
+    width: 365px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid white;
+    float: left;
+    margin-right: 330px;
+    margin-left: 15px;
+    margin-top: 210px;
+  }
+
+  .contents4 p {
+    font-size: 17px;
+  }
+
+  .main10 {
+    width: 1440px;
+    height: 270px;
+    background-color: #f7c23c;
+    text-align: center;
+  }
+
+  .QA p {
+      color: #f7c23c;
+      background-color: white;
+      font-size:15px;
+      display: inline-block;
+      border-radius: 50px;
+      /*Q&Aを丸の中心に配置*/
+      height:80px;
+      width:80px;
+      line-height: 80px;
+  }
+
+  .QA {
+    padding-top: 25px;
+  }
+
+  /* 白い「」の指定↓ */
+.main10small::before,.main10small::after {
+  content:'';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main10small::before{
+  border-top:4px solid white ;
+  border-left:4px solid white ;
+  top:0;
+  left:0;
+}
+.main10small::after{
+  border-bottom:4px solid white ;
+  border-right:4px solid white ;
+  bottom:0;
+  right:0;
+}
+.main10small{
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -40px;
+}
+/* 白い「」の指定ここまで */
+
+.main10small h2 {
+  font-size: 30px;
+  color: white;
+  line-height: 1.2em;
+}
+
+.main11 {
+  width: 1440px;
+  height: 1080px;
+  background-color: white;
+  text-align: center;
+  display: block;
+}
+
+.main11 h4 {
+  color: black;
+}
+
+.main11 h3 {
+  color: grey;
+  font-weight: 100;
+}
+
+.triangle{
+  width:0;
+  /* borderで大枠を作り、transparentで不要な部分を透明化 */
+  border-top: 30px solid #f7c23c;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  margin:0 auto;
+}
+
+.contents5-item1 img {
+  border: 2px solid #f7c23c;
+  float: left;
+  margin-left: 335px;
+}
+
+.text1 {
+  float:right;
+  margin-right: 350px;
+  color: dimgray;
+}
+
+.contents5-item1 {
+  margin-top: 35px;
+}
+
+.contents5-item2 img {
+  border: 2px solid #f7c23c;
+  float: left;
+  margin-left: 335px;
+}
+
+.text2 {
+  float:right;
+  margin-right: 350px;
+  color: dimgray;
+}
+
+.contents5-item2 {
+  padding-top: 35px;
+  clear: both;
+}
+
+.contents5-item3 img {
+  border: 2px solid #f7c23c;
+  float: left;
+  margin-left: 335px;
+}
+
+.text3 {
+  float:right;
+  margin-right: 350px;
+  color: dimgray;
+}
+
+.contents5-item3 {
+  padding-top: 35px;
+  clear: both;
+}
+
+.main12 {
+  width: 1440px;
+  height: 800px;
+  background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/classbg.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.main12text {
+  padding-top: 65px;
+}
+
+.main12text h1,h3 {
+  color: white;
+}
+
+.box11 {
+  width: 370px;
+  height: 530px;
+  background-color: white;
+  margin-left: 330px;
+  border: 3px solid steelblue;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.box11small {
+  width: 370px;
+  height: 65px;
+  background-color: steelblue;
+  margin-top: -20px;
+}
+
+.box11small h2 {
+  padding-top: 10px;
+  color: white;
+}
+
+.box11 h3 {
+  color: black;
+}
+
+.box11 h4 {
+  border-bottom: 1px solid gainsboro;
+}
+
+.box12 {
+  width: 370px;
+  height: 350px;
+  background-color: white;
+  margin-right: px;
+  border: 3px solid steelblue;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.box12small {
+  width: 370px;
+  height: 65px;
+  background-color: steelblue;
+  margin-top: -20px;
+}
+
+.box12small h2 {
+  padding-top: 10px;
+  color: white;
+}
+
+.box12 h3 {
+  color: black;
+}
+
+.box12 h4 {
+  border-bottom: 1px solid gainsboro;
+}
+
+.boxwrap {
+  display: flex;
+  margin-top: 55px;
+}
+
+.main13 {
+  width: 1440px;
+  height: 145px;
+  background-color: steelblue;
+  text-align: center;
+}
+
+.main13text {
+  color: white;
+  padding-top: 20px;
+}
+
+.main14 {
+  width: 1440px;
+  height: 1830px;
+  background-color: white;
+  text-align: center;
+}
+
+.main14text {
+  padding-top: 65px;
+}
+
+.contents6 {
+  padding-top: 50px;
+}
+
+.box13 {
+  width: 1170px;
+  height: 225px;
+  background-color: lemonchiffon;
+  margin-left: 135px;
+  margin-top: 35px;
+}
+
+.box13img {
+  float: left;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.box13img h3 {
+  color: black;
+}
+
+.box13text {
+  text-align: left;
+}
+
+.box13text h4 {
+  padding-top: 45px;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.box13text p {
+  font-size: 15px;
+  color: dimgray;
+}
+
+.box14 {
+  width: 1170px;
+  height: 225px;
+  background-color: lemonchiffon;
+  margin-left: 135px;
+  margin-top: -25px;
+}
+
+.box14img {
+  float: left;
+  padding-top: 65px;
+  padding-left: 45px;
+  padding-right: 25px;
+}
+
+.box14img h3 {
+  color: black;
+}
+
+.box14text {
+  text-align: left;
+}
+
+.box14text h4 {
+  padding-top: 40px;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.box14text h3 {
+  color: black;
+  font-size: 15px;
+}
+
+.box14text p {
+  font-size: 15px;
+  color: dimgray;
+}
+
+.box15 {
+  width: 1170px;
+  height: 225px;
+  background-color: lemonchiffon;
+  margin-left: 135px;
+  margin-top: -25px;
+}
+
+.box15img {
+  float: left;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 45px;
+}
+
+.box15img h3 {
+  color: black;
+}
+
+.box15text {
+  text-align: left;
+}
+
+.box15text h4 {
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.box15text h3 {
+  color: black;
+  font-size: 17px;
+}
+
+.box16 {
+  width: 1170px;
+  height: 225px;
+  background-color: lemonchiffon;
+  margin-left: 135px;
+  margin-top: -25px;
+}
+
+.box16img {
+  float: left;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.box16img h3 {
+  color: black;
+}
+
+.box16text {
+  text-align: left;
+}
+
+.box16text h4 {
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.box16text h3 {
+  color: black;
+  font-size: 17px;
+}
+
+.box16text p {
+  color: dimgray;
+}
+
+.box17 {
+  width: 1170px;
+  height: 225px;
+  background-color: lemonchiffon;
+  margin-left: 135px;
+  margin-top: -25px;
+}
+
+.box17img {
+  float: left;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box17img h3 {
+  color: black;
+}
+
+.box17text {
+  text-align: left;
+}
+
+.box17text h4 {
+  padding-top: 40px;
+  line-height: 45px;
+  font-size: 17px;
+}
+
+/* box間の線を作る為の指定 */
+.line1{
+  height:30px;
+  width:800px;
+  margin:0 auto;
+  border:2px solid #f7c23c;
+  /* 不要な所はtransparent（透明化）する */
+  border-top:transparent;
+  border-right:transparent ;
+}
+
+.line2{
+  height:30px;
+  width:800px;
+  margin:0 auto;
+  border:2px solid #f7c23c;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+
+.main15 {
+  width: 1440px;
+  height: 500px;
+  background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/bangkokbg.jpg");
+  background-size: cover;
+}
+
+.main15text {
+  color: white;
+  float: left;
+  margin-left: 60px;
+  margin-top: 110px;
+}
+
+.main15ul {
+  margin-left: -25px;
+  font-size: 20px;
+}
+
+.main15text h2 {
+  font-size: 28px;
+}
+
+.main15text p {
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.main16 {
+  width: 1440px;
+  height: 660px;
+  background-color: #f7c23c;
+  text-align: center;
+}
+
+.main16text {
+  padding-top: 65px;
+}
+
+.main16text span {
+  color: white;
+}
+
+.main16contents {
+  width: 1170px;
+  height: 355px;
+  border: 2px solid white;
+  text-align: center;
+  margin-left: 135px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.main16contents h1 {
+  position: relative;
+  margin-top: -25px;
+}
+
+.main16contents h2 {
+  width: 655px;
+  height: 45px;
+  position: relative;
+  margin-top: -25px;
+  font-size: 30px;
+  background-color: #f7c23c;
+  margin-left: 250px;
+}
+
+.main16contentsitem1 {
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin:0 auto;
+  float: left;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+.main16contentsitem1 h1 {
+  padding-top: 50px;
+  font-size: 28px;
+  color: #f7c23c;
+}
+
+.main16contentsitem1 p {
+  padding-top: -17px;
+}
+
+.main16contentsitem2 {
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin:0 auto;
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.main16contentsitem2 h1 {
+  padding-top: 50px;
+  font-size: 28px;
+  color: #f7c23c;
+}
+
+.main16contentsitem2 p {
+  padding-top: -17px;
+}
+
+.main16contentsitem3 {
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin:0 auto;
+  float: left;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.main16contentsitem3 h1 {
+  padding-top: 50px;
+  font-size: 28px;
+  color: #f7c23c;
+}
+
+.main16contentsitem3 p {
+  padding-top: -17px;
+}
+
+.main17 {
+  width: 1440px;
+  height: 525px;
+  background-image: url("/Users/ikedataisei/Creative Cloud Files/isara/img/specialdetail.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.main17 h1,h3 {
+  color: white;
+}
+
+ /* 白い「」の指定↓ */
+ .main17small::before,.main17small::after {
+  content:'';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main17small::before{
+  border-top:4px solid white ;
+  border-left:4px solid white ;
+  top:0;
+  left:0;
+}
+.main17small::after{
+  border-bottom:4px solid white ;
+  border-right:4px solid white ;
+  bottom:0;
+  right:0;
+}
+.main17small{
+    margin: 0 auto;
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -40px;
+}
+/* 白い「」の指定ここまで */
+
+.main17small {
+  margin-top: 10px;
+}
+
+.main17text {
+  padding-top: 65px;
+}
+ .main17 h3 {
+   font-size: 20px;
+ }
+
+ .main18 {
+   width: 1440px;
+   height: 625px;
+   background-color: white;
+   text-align: center;
+ }
+
+ .main18text {
+   padding-top: 60px;
+   line-height: 45px;
+ }
+
+ .main18text h3 {
+   color: black;
+ }
+
+ .main18contents img {
+   float: left;
+   margin-left: 300px;
+   margin-top: 17px;
+ }
+
+ .main18contents p {
+   float: right;
+   margin-right: 260px;
+   text-align: left;
+   color: dimgray;
+ }
+
+ .main19 {
+   width: 1440px;
+   height: 700px;
+   background-color: #f7c23c;
+   text-align: center;
+   margin-bottom: 90px;
+ }
+
+ .main19text {
+   padding-top: 60px;
+ }
+
+ .main19text p {
+   font-size: 20px;
+ }
+
+ .form{
+  height:650px;
+background-color: #f7c23c;
+}
+
+.document{
+padding-top:30px;
+}
+
+input::placeholder {
+  color:gray;
+  font-size: 1.2em;
+  font-style: italic;
+  margin:0 auto;
+  display:block;
+  width:600px;
+}
+
+input{
+  display:block;
+  width:60%;
+  height:50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border:none;
+}
+
+textarea{
+  width: 60%;
+  display:block;
+  margin: 30px auto;
+  border-radius: 5px;
+  border:none;
+  color:gray;
+  font-size:1.2em;
+}
+
+.soushin {
+  width: 500px;
+  height:44px;
+  border:1px solid #d86c67;
+  background-color: #d86c67;
+  border-radius: 25px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  font-size:20px;
+  padding-top:10px;
+  font-weight:1000;
+}
+
+.main20 {
+  width: 1440px;
+  height: 1330px;
+  background-color: white;
+}
+
+.main20 h1 {
+  padding-top: 65px;
+}
+
+.main20contents {
+  margin-left: 165px;
+  
+}
+
+.main20contents h3 {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.main20box1 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.main20box2 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box3 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box4 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box5 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box6 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box7 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box8 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box9 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box10 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box11 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box12 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box13 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.main20box14 {
+  width: 1110px;
+  height: 65px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  clear: both;
+  width: 1440px;
+  height: 120px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: whitesmoke;
+}
+.footer p {
+  color: dimgray;
+  font-size: 13px;
+}
